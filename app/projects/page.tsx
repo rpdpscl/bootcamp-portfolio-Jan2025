@@ -7,7 +7,7 @@ import { ArrowRight, Terminal } from 'lucide-react';
 const projects = [
   {
     title: "Science Q&A Fine-tuning with Gemma 2B",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+    image: "https://unsplash.com/photos/lab-glassware-science-laboratory-research-and-development-concept-LdwPILe8Tlc",
     problem: "Need to create an AI model that can accurately answer science-related questions with proper reasoning and analysis, while maintaining high performance metrics like BLEU, ROUGE, and METEOR scores.",
     solution: "Fine-tuned Google's Gemma 2B instruction model on a science Q&A dataset, implementing a custom prompt template and evaluation metrics. The model generates structured responses with analysis and answers in XML-style tags.",
     tools: ["Python", "PyTorch", "Hugging Face Transformers", "Google Gemma", "CUDA"],
