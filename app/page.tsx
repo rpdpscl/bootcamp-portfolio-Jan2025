@@ -42,7 +42,7 @@ export default function Home() {
           <div className="flex justify-center lg:justify-end items-center">
             <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-[400px] lg:h-[400px]">
               <Image
-                src="https://raw.githubusercontent.com/rpdpscl/bootcamp-portfolio-Jan2025/main/app/images/pat_pascual.png"
+                src="https://raw.githubusercontent.com/rpdpscl/bootcamp-portfolio-Jan2025/main/app/images/pat.png"
                 alt="Profile"
                 fill
                 className="rounded-3xl object-cover"
