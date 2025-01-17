@@ -15,7 +15,7 @@ const projects = [
   },
   {
     title: "AI-Powered News Summarizer",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+    image: "https://raw.githubusercontent.com/rpdpscl/bootcamp-portfolio-Jan2025/main/app/images/2.jpg",
     problem: "Information overload from lengthy news articles makes it difficult for readers to quickly grasp key points and essential information, leading to time inefficiency and reduced comprehension.",
     solution: "Developed a Streamlit-based web application that leverages OpenAI's GPT-4 model to generate concise, accurate summaries of news articles. The tool maintains objectivity while extracting core facts, events, and themes through carefully crafted system prompts.",
     tools: ["Python", "Streamlit", "OpenAI API", "GPT-4"],
@@ -23,7 +23,7 @@ const projects = [
   },
   {
     title: "Quiz Genius",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+    image: "https://raw.githubusercontent.com/rpdpscl/bootcamp-portfolio-Jan2025/main/app/images/3.jpg",
     problem: "Educators and students struggle to create customized, high-quality practice quizzes from educational content, especially for technical subjects requiring proper mathematical notation and comprehensive explanations.",
     solution: "Developed a Streamlit application that uses GPT-4 to automatically analyze educational content from URLs, detect subject areas, and generate tailored quizzes with LaTeX math support. Features include automatic subject detection, format suggestions, and PDF export functionality.",
     tools: ["Python", "Streamlit", "OpenAI API", "GPT-4", "LaTeX", "BeautifulSoup"],
@@ -31,7 +31,7 @@ const projects = [
   },
   {
     title: "ShopRisk",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+    image: "https://raw.githubusercontent.com/rpdpscl/bootcamp-portfolio-Jan2025/main/app/images/4.jpg",
     problem: "E-commerce businesses in the Philippines need better ways to predict and analyze delivery risks, financial losses, and courier performance across different regions and weather conditions.",
     solution: "An AI-powered risk assessment platform that analyzes delivery data to provide insights on financial loss predictions, courier performance tracking, weather impact analysis, and regional risk mapping for Lazada and Shopee operations.",
     tools: ["Python", "Streamlit", "OpenAI", "FAISS", "Pandas", "NumPy"],
@@ -39,7 +39,7 @@ const projects = [
   },
   {
     title: "Natural Language Generation for Delivery Analytics",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+    image: "https://raw.githubusercontent.com/rpdpscl/bootcamp-portfolio-Jan2025/main/app/images/5.jpg",
     problem: "Converting raw delivery data into readable, natural language reports is time-consuming and prone to human error. There's a need to automate the generation of comprehensive delivery performance narratives from structured data.",
     solution: "Developed a Python-based natural language generation system that automatically converts delivery analytics data into coherent paragraphs. The system analyzes various delivery metrics (orders, delays, returns, etc.) and generates human-readable reports in both TXT and PDF formats using OpenAI's GPT model.",
     tools: ["Python", "OpenAI", "Pandas", "FPDF"],
@@ -47,7 +47,7 @@ const projects = [
   },
   {
     title: "ReveNEW: Intelligent Revenue Analysis & Reporting Platform",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+    image: "https://raw.githubusercontent.com/rpdpscl/bootcamp-portfolio-Jan2025/main/app/images/6.jpg",
     problem: "Businesses struggle with converting complex revenue data into actionable insights. Manual analysis and report generation is time-consuming, while traditional BI tools often lack the ability to generate narrative insights and natural language explanations of trends.",
     solution: "Created a two-part revenue analysis system: (1) A data processing pipeline that transforms raw revenue data into natural language narratives using GPT-4, handling multiple metrics including transaction details, customer segments, and performance indicators. (2) A Streamlit-based interactive platform that enables real-time revenue analysis, forecasting, and insight generation with semantic search capabilities.",
     tools: ["Python", "OpenAI", "Streamlit", "Pandas", "FAISS"],
@@ -55,7 +55,7 @@ const projects = [
   },
   {
     title: "ReveNEW 2.0: Multi-Agent Revenue Analysis System",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+    image: "https://raw.githubusercontent.com/rpdpscl/bootcamp-portfolio-Jan2025/main/app/images/7.jpg",
     problem: "While the original ReveNEW platform successfully automated basic revenue analysis, it lacked specialized domain expertise and real-time collaborative analysis capabilities. Businesses needed deeper, multi-perspective insights that could adapt to changing market conditions and cross-validate findings across different analytical domains.",
     solution: "Enhanced the original ReveNEW system with a sophisticated multi-agent architecture featuring three specialized AI analysts (Pricing, Traffic, and Sales) that work collaboratively to provide comprehensive insights. The system now offers dynamic price optimization, advanced traffic source analysis, and detailed sales performance metrics, while maintaining the natural language processing capabilities of the original platform.",
     tools: ["Python", "OpenAI", "Swarm AI"],
@@ -63,7 +63,7 @@ const projects = [
   },
   {
     title: "Self-Evaluation Assistant",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+    image: "https://raw.githubusercontent.com/rpdpscl/bootcamp-portfolio-Jan2025/main/app/images/8.png",
     problem: "Performance evaluations are often subjective and time-consuming, making it difficult for employees to effectively document and analyze their achievements. Traditional methods lack standardization and data-driven insights.",
     solution: "Developed a Streamlit-based AI application that analyzes performance data using OpenAI's GPT-4 to provide objective, comprehensive evaluations across strategic objectives, behavioral competencies, and innovation metrics. The tool processes CSV/XLSX files and generates detailed assessments with specific achievements, scores, and reasoning.",
     tools: ["Python", "Streamlit", "OpenAI", "FAISS", "Langchain"],
@@ -71,7 +71,7 @@ const projects = [
   },
   {
     title: "PropGuard - Real Estate Listing Validation System",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+    image: "https://raw.githubusercontent.com/rpdpscl/bootcamp-portfolio-Jan2025/main/app/images/9.jpg",
     problem: "The real estate market faces challenges with fraudulent listings, unverified agents, and inconsistent property information across platforms. Traditional validation methods are time-consuming and prone to human error, making it difficult to ensure listing authenticity and protect buyers.",
     solution: "PropGuard is a comprehensive real estate listing validation system that combines multiple verification layers:\n- Image authentication to detect duplicates and suspicious property photos\n- Agent verification across platforms using AI\n- Cross-platform listing consistency checks\n- Review sentiment analysis\n- Qualitative trust scoring system\nThe system provides automated validation with clear trust scores and actionable recommendations.",
     tools: ["Python", "OpenAI", "X.AI Grok", "Langchain", "Google Search API", "Flask"],
@@ -79,7 +79,7 @@ const projects = [
   },
   {
     title: "ALAB - AI Career Preparation Assistant",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+    image: "https://raw.githubusercontent.com/rpdpscl/bootcamp-portfolio-Jan2025/main/app/images/10.jpeg",
     problem: "Bootcamp graduates often struggle with creating targeted resumes, preparing for technical interviews, and finding the right career path in tech. The manual process of customizing applications and preparing for interviews is time-consuming and may not align with industry standards.",
     solution: "Developed an AI-powered application that streamlines the career preparation process by offering automated resume customization, intelligent mock interviews, and personalized career guidance. The system uses GPT-4 to analyze job requirements and user qualifications, providing tailored recommendations and real-time interview feedback.",
     tools: ["Python", "Streamlit", "OpenAI"],

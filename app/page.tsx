@@ -94,7 +94,7 @@ export default function Home() {
 const projects = [
   {
     title: "Self-Evaluation Assistant",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+    image: "https://raw.githubusercontent.com/rpdpscl/bootcamp-portfolio-Jan2025/main/app/images/8.png",
     problem: "Performance evaluations lack standardization and are time-consuming, making it difficult for employees to effectively document and analyze their achievements.",
     solution: "Developed an AI application that analyzes performance data using GPT-4 to provide objective evaluations and generates detailed assessments with specific achievements, scores, and reasoning.",
     tools: ["Python", "Streamlit", "OpenAI", "FAISS", "Langchain"],
@@ -102,7 +102,7 @@ const projects = [
   },
   {
     title: "PropGuard - Real Estate Listing Validation System", 
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+    image: "https://raw.githubusercontent.com/rpdpscl/bootcamp-portfolio-Jan2025/main/app/images/9.jpg",
     problem: "The real estate market faces challenges with fraudulent listings, unverified agents, and inconsistent property information across platforms. Manual validation methods are inefficient and error-prone.",
     solution: "PropGuard is a comprehensive real estate listing validation system that combines AI-powered image authentication, agent verification, cross-platform consistency checks, and review sentiment analysis. The system provides automated validation with clear trust scores and actionable recommendations.",
     tools: ["Python", "OpenAI", "X.AI Grok", "Langchain", "Google Search API", "Flask"],
@@ -110,7 +110,7 @@ const projects = [
   },
   {
     title: "ReveNEW: Intelligent Revenue Analysis & Reporting Platform",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop", 
+    image: "https://raw.githubusercontent.com/rpdpscl/bootcamp-portfolio-Jan2025/main/app/images/6.jpg", 
     problem: "Businesses struggle with converting complex revenue data into actionable insights, while traditional BI tools lack natural language explanation capabilities. Manual analysis and reporting is time-consuming and inefficient.",
     solution: "Created a two-part revenue analysis system with a data processing pipeline that transforms revenue data into natural language narratives using GPT-4, and a Streamlit-based platform for real-time analysis and forecasting.",
     tools: ["Python", "OpenAI", "Streamlit", "Pandas", "FAISS"],
