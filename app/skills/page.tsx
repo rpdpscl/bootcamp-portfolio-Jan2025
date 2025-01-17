@@ -1,5 +1,3 @@
-// Created by Danielle Bagaforo Meer
-// Let's Connect : https://www.linkedin.com/in/algorexph/
 'use client';
 
 import { useState } from 'react';
@@ -16,70 +14,58 @@ const skillCategories = [
   {
     title: "FEATURED",
     skills: [
-      { name: "React" },
-      { name: "CSS"},
-      { name: "HTML" },
-      { name: "JavaScript" },
-      { name: "Next.js" },
-      { name: "SASS" },
-      { name: "Flutter" }
+      { name: "Python" },
+      { name: "Machine Learning" },
+      { name: "LLM Development" },
+      { name: "SQL" },
+      { name: "Data Analysis" },
+      { name: "RAG" }
     ]
   },
   {
-    title: "FRONTEND",
+    title: "AI & MACHINE LEARNING",
     skills: [
-      { name: "React" },
-      { name: "CSS"},
-      { name: "HTML" },
-      { name: "JavaScript" },
-      { name: "Next.js" },
-      { name: "SASS" },
-      { name: "Flutter" }
+      { name: "LLM Customization" },
+      { name: "RAG" },
+      { name: "GPT-3.5" },
+      { name: "GPT-4" },
+      { name: "Fine-tuning" },
+      { name: "Credit Scoring" },
+      { name: "Predictive Analytics" },
+      { name: "Model Pipelining" },
+      { name: "Supervised ML" },
+      { name: "Unsupervised ML" }
     ]
   },
   {
-    title: "BACKEND",
+    title: "PROGRAMMING",
     skills: [
-      { name: "React" },
-      { name: "CSS"},
+      { name: "Python" },
+      { name: "SQL" },
+      { name: "R" },
+      { name: "Excel VBA" },
+      { name: "NumPy" },
+      { name: "Pandas" },
+      { name: "Scikit-learn" },
+      { name: "NLTK" },
+      { name: "spaCy" }
+    ]
+  },
+  {
+    title: "TOOLS & FRAMEWORKS",
+    skills: [
+      { name: "Streamlit" },
+      { name: "Flask" },
+      { name: "VS Code" },
+      { name: "Cursor" },
+      { name: "Power Query" },
+      { name: "Tableau" },
+      { name: "API Integration" },
       { name: "HTML" },
-      { name: "JavaScript" },
-      { name: "Next.js" },
-      { name: "SASS" },
-      { name: "Flutter" }
+      { name: "React" }
     ]
   }
 ];
-
-const technologies = {
-  featured: [
-    { name: "React" },
-      { name: "CSS"},
-      { name: "HTML" },
-      { name: "JavaScript" },
-      { name: "Next.js" },
-      { name: "SASS" },
-      { name: "Flutter" }
-  ],
-  frontend: [
-    { name: "React" },
-    { name: "CSS"},
-    { name: "HTML" },
-    { name: "JavaScript" },
-    { name: "Next.js" },
-    { name: "SASS" },
-    { name: "Flutter" }
-  ],
-  backend: [
-    { name: "React" },
-      { name: "CSS"},
-      { name: "HTML" },
-      { name: "JavaScript" },
-      { name: "Next.js" },
-      { name: "SASS" },
-      { name: "Flutter" }
-  ]
-};
 
 export default function Skills() {
   const [formData, setFormData] = useState({
@@ -118,40 +104,12 @@ export default function Skills() {
                     key={skillIndex}
                     className="py-2 sm:py-3 px-3 sm:px-4 bg-black/40 hover:bg-black/60 border border-purple-500/20 hover:border-purple-500/40 text-white transition-all duration-300 text-sm sm:text-base flex items-center justify-center"
                   >
-                    <span className="mr-2 text-base sm:text-lg">{skill.icon}</span>
                     {skill.name}
                   </Badge>
                 ))}
               </div>
             </div>
           ))}
-        </div>
-
-        <div className="mt-16 sm:mt-20 lg:mt-24">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-8 sm:mb-12 lg:mb-16 text-center sm:text-left">
-            SOME TECHNOLOGIES I'VE WORKED WITH
-          </h2>
-          
-          <div className="space-y-12 sm:space-y-16">
-            {Object.entries(technologies).map(([category, techs]) => (
-              <div key={category}>
-                <h3 className="text-xl sm:text-2xl font-bold text-purple-400 mb-4 sm:mb-6 text-center sm:text-left">
-                  {category.toUpperCase()}
-                </h3>
-                <div className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 sm:gap-4">
-                  {techs.map((tech, index) => (
-                    <div
-                      key={index}
-                      className="flex items-center justify-center p-3 sm:p-4 bg-black/40 border border-purple-500/20 hover:border-purple-500/40 rounded-lg transition-all duration-300 gap-2"
-                    >
-                      <span className="text-xl sm:text-2xl">{tech.icon}</span>
-                      <span className="text-white font-mono text-sm sm:text-base">{tech.name}</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            ))}
-          </div>
         </div>
 
         <div className="mt-16 sm:mt-20 lg:mt-24 mb-8 sm:mb-12">
